@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanushree | Developer & AI Enthusiast</title>
+    <!-- Open Graph / SEO -->
+    <meta name="description" content="Tanushree — Computer Science student, AI enthusiast and Full-Stack developer. Explore projects, resume, and contact.">
+    <meta property="og:title" content="Tanushree | Developer & AI Enthusiast">
+    <meta property="og:description" content="Portfolio of Tanushree — AI, Full-Stack, and creative projects.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Lottie player for animated hero -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- Spline 3D viewer -->
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.48/build/spline-viewer.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Tanushree</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle theme" aria-pressed="false">
+                <span class="theme-icon">🌙</span>
+                <!-- <span class="theme-label">Theme</span> -->
+            </button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-spotlight" aria-hidden="true"></div>
+        <div class="hero-spline" aria-hidden="true">
+            <div class="moon-wrapper" aria-hidden="true">
+                <spline-viewer url="https://prod.spline.design/69fGynH9XG0VfwKy/scene.splinecode"></spline-viewer>
+            </div>
+        </div>
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                     Hi, I'm <span class="gradient-text">Tanushree</span>
+                </h1>
+                <p class="hero-subtitle typing-text" style="text-align: center;">
+                    <span id="typed-text"></span>
+                    <span class="cursor">|</span>
+                </p>
+                <!-- <p class="hero-description">
+                    Computer Science student passionate about AI, Full-Stack Development, and building impactful solutions.
+                </p>ils"></i> -->
+                    <!-- </a>  -->
+                </div>
+                <!-- <div class="hero-image">
+                    Animated hero (Lottie) -->
+                    <!-- <lottie-player
+                        src="https://assets9.lottiefiles.com/packages/lf20_tfb3estd.json"
+                        background="transparent"
+                        speed="1"
+                        loop
+                        autoplay
+                        style="width: 400px; height: 400px;"
+                    ></lottie-player>
+                </div> -->
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <!-- Placeholder for another photo -->
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-circle"></i>
+                        <img src="Tanushree.jpeg" alt="Tanushree Chaudhary Photo">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>I'm Tanushree, a passionate <span class="gradient-text">Computer Science Student</span></h3>
+                    <p>
+                        Currently pursuing B.Tech in Computer Science and Engineering at <strong>Acharya Institute of Technology, Bangalore</strong> 
+                        with a CGPA of <strong>9.2/10</strong>. I'm driven by the desire to create innovative solutions that make a real impact.
+                    </p>
+                    <p>
+                        My journey in tech has been exciting, from building AI-powered mental wellness apps to creating intelligent personal assistants. 
+                        I love exploring the intersection of AI, web development, and user experience.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4 class="gradient-text">9.2</h4>
+                            <p>CGPA</p>
+                        </div>
+                        <div class="stat">
+                            <h4 class="gradient-text">15+</h4>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat">
+                            <h4 class="gradient-text">3+</h4>
+                            <p>Certifications</p>
+                        </div>
+                        <div class="stat">
+                            <h4 class="gradient-text">2+</h4>
+                            <p>Hackathons</p>
+                        </div>
+                    </div>
+                    <div class="coursework">
+                        <h4>Relevant Coursework</h4>
+                        <div class="coursework-tags">
+                            <span>Data Structures & Algorithms</span>
+                            <span>Database Management</span>
+                            <span>Design of Algorithms</span>
+                            <span>Machine Learning</span>
+                            <span>Operating Systems</span>
+                            <span>Computer Organization</span>
+                            <span>IoT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-copyright"></i>
+                            <span>C++</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Frameworks</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-node"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Flutter</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>Postman</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-linux"></i>
+                            <span>Linux</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI & ML</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-robot"></i>
+                            <span>LLaMA API</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>TensorFlow</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-language"></i>
+                            <span>NLP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Here are some of my recent works that I'm proud of</p>
+            <div class="project-filters" aria-label="Project filters">
+                <button class="filter active" data-filter="all">All</button>
+                <button class="filter" data-filter="flutter">Flutter</button>
+                <button class="filter" data-filter="python">Python</button>
+                <button class="filter" data-filter="nlp">NLP</button>
+                <button class="filter" data-filter="web">Web</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1: MindHeaven -->
+                <div class="project-card" data-tags="flutter,firebase,llama,web">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-heart"></i>
+                            <p>MindHeaven Screenshot</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>MindHeaven</h3>
+                            <div class="project-links">
+                                <a href="https://mindheavenwebsite.web.app/" target="_blank" class="project-link" aria-label="Website">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Mental wellness app with AI-driven support, featuring mood tracking, journaling, emergency alerts, 
+                            and self-care tools. Integrated LLaMA-based chatbot offering real-time emotional support.
+                        </p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Dart</span>
+                            <span>Node.js</span>
+                            <span>Firebase</span>
+                            <span>LLaMA API</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>15+ Features</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-smile"></i>
+                                <span>90% User Satisfaction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Arjun AI -->
+                <div class="project-card" data-tags="python,llama,automation">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-robot"></i>
+                            <p>Arjun AI Screenshot</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Arjun AI</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/Lokeshydv405/Arjun_AI" target="_blank" class="project-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            AI-powered personal desktop assistant supporting voice commands, intelligent task automation, 
+                            and natural language interaction. Automated 20+ tasks including app management and music recommendations.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>LLaMA API</span>
+                            <span>pyttsx3</span>
+                            <span>TensorFlow</span>
+                            <span>Spotify API</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-microphone"></i>
+                                <span>80% Voice Accuracy</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-tasks"></i>
+                                <span>20+ Automated Tasks</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: NLP to SQL -->
+                <div class="project-card" data-tags="python,nlp,sql">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-database"></i>
+                            <p>NLP to SQL Screenshot</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>NLP to SQL Query</h3>
+                            <div class="project-links">
+                                <a href="https://github.com/your-username/nlp-to-sql" target="_blank" class="project-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            NLP-based system that converts user-friendly English questions into optimized SQL queries. 
+                            Implemented schema-aware query generation with contextual mapping for complex operations.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>SQL</span>
+                            <span>Transformers</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-bullseye"></i>
+                                <span>85%+ Accuracy</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-tachometer-alt"></i>
+                                <span>40% Faster</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & Responsibilities</h2>
+            
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>FrostHack 2023</h3>
+                    <p class="achievement-subtitle">IIT MANDI</p>
+                    <p>Creator of an innovative app focused on managing and tracking personal finances.</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Smart India Hackathon 2024</h3>
+                    <p class="achievement-subtitle">National Level</p>
+                    <p>Contributed to solving real-world problems with an innovative solution for disaster prone areas.</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>The Big O</h3>
+                    <p class="achievement-subtitle">Club Member</p>
+                    <p>Actively contributing to event planning, coordination, and execution to increase student engagement.</p>
+                </div>
+            </div>
+
+            <div class="certifications">
+                <h3>Certifications</h3>
+                <div class="cert-grid">
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <div>
+                            <h4>Programming in C</h4>
+                            <p>Springboard</p>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <div>
+                            <h4>English for Career Development</h4>
+                            <p>Coursera</p>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <div>
+                            <h4>Supervised Machine Learning</h4>
+                            <p>Coursera</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-subtitle">Have a project in mind or just want to chat? Feel free to reach out!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:tanu25shree11@gmail.com">tanu25shree11@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+919650245063">+91 9650245063</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Bangalore, India</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Tanushree. Built with passion and coffee ☕</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/tanushree2511" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/tanushree-chaudhary-81382a274/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://leetcode.com/u/tanushree25/" target="_blank" aria-label="LeetCode">
+                        <i class="fas fa-code"></i>
+                    </a>
+                    <a href="https://www.codechef.com/users/tanushree_2511" target="_blank" aria-label="CodeChef">
+                        <i class="fas fa-utensils"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
